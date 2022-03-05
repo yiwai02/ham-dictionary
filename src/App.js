@@ -1,11 +1,23 @@
 import React from 'react';
+import Header from './Header';
+import Dictionary from './Dictionary';
 
 import './App.css';
 
 function App(){
   return(
     <div className="App">
-Hello
+      <div className="container">
+        <header className="App-header">
+          <Header />
+          </header> 
+<main>
+<Dictionary />
+</main>
+<footer className="App-footer">
+   Opensource at <a href ="https://github.com/yiwai02/ham-dictionary" target="blank">Github</a>
+</footer>
+</div>
 </div>
   );
 }
