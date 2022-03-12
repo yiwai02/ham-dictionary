@@ -1,6 +1,8 @@
 import React from "react";
 import Meaning from "./Meaning";
 
+import "./Definitions.css"
+
 export default function Definition(props){
     console.log(props.results);
     if (props.results) {

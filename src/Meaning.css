@@ -1,11 +1,13 @@
 h5 {
-    text-align: left;
+  text-align: left;
+  margin-bottom: 30px;
 }
 
-.partOfSpeech{
-    font-weight: bold;
+.partOfSpeech {
+  font-weight: bold;
 }
 
-.definition{
-    font-size: smaller;
+.definition {
+  font-size: smaller;
+  margin: 15px 0;
 }
