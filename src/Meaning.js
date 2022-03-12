@@ -1,9 +1,13 @@
 import React from "react";
 
+import "./Meaning.css"
+
 export default function Meaning (props){
     return <h5>
+        <div className="partOfSpeech">
         {props.meaning.partOfSpeech} <br />
-        {props.meaning.definitions.map(function(definitions,index){return `${index + 1} ${definitions.definition}`
+        </div>
+        {props.meaning.definitions.map(function(definitions,index){return <div className="definition">{index + 1}. {definitions.definition}</div>
         })}
         </h5>;
     }
