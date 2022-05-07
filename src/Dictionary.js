@@ -29,7 +29,7 @@ export default function Dictionary(){
         <div className="Dictionary">
     <form>
         <input type="search" placeholder='search' onChange={keywordChange} className="search-form" />
-<button type="button" class="btn btn-outline-primary" onClick={search}>🔍</button>
+<button type="submit" class="btn btn-outline-success" onClick={search}>🔍</button>
  </form>
 
  <Definition results={definition} />

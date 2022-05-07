@@ -15,6 +15,7 @@ function App(){
 <Dictionary />
 </main>
 <footer className="App-footer">
+  <img src={require('./pics/kinkumalove.png')} alt="hamster" className="footerHamster" />
    Opensource at <a href ="https://github.com/yiwai02/ham-dictionary" target="blank">Github</a>
 </footer>
 </div>

@@ -13,7 +13,7 @@ export default function Definition(props){
             <h2><b>{props.results.word}</b></h2>
             {props.results.phonetic}
             </div>
-            <div className="col-6 searchDefinition">
+            <div className="col-6 border border-success searchDefinition">
                 {props.results.meanings.map(function(meaning,index){
                     return (
                         <div key ={index}>
@@ -22,7 +22,17 @@ export default function Definition(props){
                     );
                 })}
             </div>
-            <div className="col-6 searchImage">
+            <div className="col-1">
+            </div>
+            <div className="col-5">
+                <div class="row">
+                <div className="col-12 border border-success synonymResult">
+                    Hi
+                </div>
+                <div class="col-12 border border-lightimgResult">
+                    Hi
+                </div>
+                </div>
             </div>
         </div>
         </div>
